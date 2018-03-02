@@ -1,0 +1,100 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2017-sep-29, 12:19:47
+    Author     : milooyaguez karlsson
+*/
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    height: 100%;
+}
+#background{
+    background: url(bilder/bild1.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -5;
+}
+#bild1Segment1{
+    background: url(bilder/bild1.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    clip-path: inset(0 80% 80% 0);
+}
+#bild1Segment2{
+    background: url(bilder/bild1.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    clip-path: inset(80% 0 0 80%);
+}
+#bild1Segment3{
+    background: url(bilder/bild1.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    clip-path: inset(25% 35% 25% 35%);
+}
+#segment1Shadow{
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    height: 100%;
+    width: 100%;
+    clip-path: inset(0 79% 79% 0);
+    background-color: black;
+    position: absolute;
+    opacity: 0.2;
+    box-shadow: 0px 2px 15px rgba(0,0,0,0.7);
+}
+#segment2Shadow{
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    height: 100%;
+    width: 100%;
+    clip-path: inset(79% 0 0 79%);
+    background-color: black;
+    position: absolute;
+    opacity: 0.2;
+    box-shadow: 0px 2px 15px rgba(0,0,0,0.7);
+}
+#segment3Shadow{
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    height: 100%;
+    width: 100%;
+    clip-path: inset(25% 35% 25% 35%);
+    background-color: black;
+    position: absolute;
+    opacity: 0.2;
+    box-shadow: 0px 2px 15px rgba(0,0,0,0.7);
+}
+
+
